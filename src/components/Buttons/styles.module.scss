@@ -1,0 +1,50 @@
+.container {
+  text-align: center;
+}
+
+.input {
+  grid-area: input;
+  margin: 0 auto;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.219);
+  padding: 5px;
+  font-size: 1.5em;
+  max-width: 60%;
+
+  @media (min-width: 750px) {
+    width: 30%;
+  }
+}
+
+.button {
+  position: relative;
+  top: 7px;
+  background-color: transparent;
+  color: white;
+  font-size: 2em;
+  border: none;
+}
+.calendarButton {
+  position: relative;
+  background-color: transparent;
+  color: white;
+  font-size: 2em;
+  border: none;
+}
+
+.calendarContainer {
+  margin-bottom: 20px;
+}
+
+.calendarIcon {
+  position: relative;
+  top: 8px;
+  margin-right: 8px;
+}
+
+.dateText {
+  display: inline-block;
+  font-size: 0.7em;
+}
